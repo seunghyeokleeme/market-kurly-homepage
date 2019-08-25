@@ -13,19 +13,30 @@
   <body>
     <header class="header">
       <div class="header__column">
-        <div class="header-bnr">
-          <span class="header-bnr__text">서울 경기 인천</span>
-          <span class="header-bnr__text g-color"> 샛별 배송</span>
-          <i class="fas fa-chevron-right"></i>
-        </div>
+        <a href="#" class="header__link delivery-link">
+          <div class="header-bnr">
+            <span class="header-bnr__text">서울 경기 인천</span>
+            <span class="header-bnr__text g-color"> 샛별 배송</span>
+            <i class="fas fa-chevron-right"></i>
+          </div>
+        </a>
         <div class="header-menu menu">
           <div class="menu__list">
-            <span class="menu__list-item g-color">회원가입</span>
-            <span class="menu__list-item">| 로그인</span>
-            <span class="menu__list-item">
-              | 고객센터
-              <i class="fas fa-sort-down"></i>
-            </span>
+            <a href="menu/join.html" class="menu-link join-link">
+              <span class="menu__list-item g-color">회원가입</span>
+            </a>
+            <a href="menu/login.html" class="menu-link login-link">
+              <span class="menu__list-item">| 로그인</span>
+            </a>
+            <a
+              href="menu/service-center.html"
+              class="menu-link service-center-link"
+            >
+              <span class="menu__list-item">
+                | 고객센터
+                <i class="fas fa-sort-down"></i>
+              </span>
+            </a>
             <div class="menu__service-center">
               <a href="#">공지사항</a>
               <a href="#">자주하는 질문</a>
@@ -33,12 +44,16 @@
               <a href="#">상품제안</a>
               <a href="#">배송지역 검색</a>
             </div>
-            <span class="menu__list-item">| 배송지역 검색</span>
+            <a href="menu/address.html" class="menu-link adress-link">
+              <span class="menu__list-item">| 배송지역 검색</span>
+            </a>
           </div>
         </div>
       </div>
       <div class="header__column">
-        <img src="images/logo.jpeg" class="header-logo" />
+        <a href="index.html" class="logo-link">
+          <img src="images/logo.jpeg" class="header-logo" />
+        </a>
       </div>
     </header>
     <nav></nav>
